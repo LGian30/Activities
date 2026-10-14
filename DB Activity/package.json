@@ -1,0 +1,25 @@
+{
+  "name": "sample_api",
+  "version": "0.0.1",
+  "description": "This is a sample API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error no testbed specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "RESTFul API"
+  ],
+  "author": "Juan Dela Cruz",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "nodemon": "^1.14.10"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.1",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.5"
+  }
+}
